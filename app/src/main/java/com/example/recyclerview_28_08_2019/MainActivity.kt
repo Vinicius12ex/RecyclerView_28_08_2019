@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
         val adapter = BooksAdapter()
         recyclerview.adapter = adapter
         adapter.submitList(books)
-        
+
     }
 
     private fun readJSONFromAsset(): String? {
